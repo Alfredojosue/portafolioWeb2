@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +8,15 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
-
 <body>
     <header>
         <nav id="navbar">
-            <div class="logo">Josue<span> Ram&iacute;rez</span>
+            <div class="logo">Josue<span> Ram&iacute;rez</span></div>
                 <ul class="nav-links">
-                    <li> <a href="#inicio"></a>Inicio</li>
-                    <li> <a href="#experiencia"></a>Experiencia</li>
-                    <li> <a href="#proyectos"></a>Proyectos</li>
+                    <li><a href="#inicio"></a>Inicio</li>
+                    <li><a href="#experiencia"></a>Experiencia</li>
+                    <li><a href="#proyectos"></a>Proyectos</li>
                 </ul>
-            </div>
         </nav>
     </header>
     <main>
@@ -42,7 +39,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- Seccion de experiencia -->
         <section id="experiencia" class="experiencia">
             <h2 class="sectiion-titulo">Experiencia Laboral</h2>
             <div class="timeline">
@@ -63,6 +60,7 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Se agregan timelne item, cuantas veces sea necesario para plasmar los trabajos realizados -->
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <span class="date"> 03 de octubre 2024 - 13 de marzo 2025</span>
@@ -88,9 +86,10 @@
                         <h3>Desarrollador web Full-stack</h3>
                         <h4>Centro de investigaci&oacute;n en matematicas</h4>
                         <p>Desarrollo web informarmativo y de demostraci&oacute;n
-                        del funcionamiento de un sistema de inteligencia artificial
-                        con aplicacion al turismo. Utilizando framework como flask empleando modelo vista controlador, asi como
-                        lenguajes de programaci&oacute;n en python, html, css, javaScript etc.
+                            del funcionamiento de un sistema de inteligencia artificial
+                            con aplicacion al turismo. Utilizando framework como flask empleando modelo vista
+                            controlador, asi como
+                            lenguajes de programaci&oacute;n en python, html, css, javaScript etc.
                         </p>
                         <ul class="Skills">
                             <li>flask</li>
@@ -103,7 +102,55 @@
                 </div>
             </div>
         </section>
+        <section id="proyectos" class="proyects">
+            <h2>Proyectos Personales</h2>
+            <div class="proyects-contanier">
+                <div class="proyect-card">
+                    <div class="proyect-img">
+                        <img src="./img/perfil.jpeg" alt="proyecto1">
+                    </div>
+                    <div class="proyect-info">
+                        <h3>Desarrollo Web</h3>
+                        <p>Desarrollo web enfocada a la venta de productos navideños</p>
+                        <div clas="proyect-tech">
+                            <span>html</span>
+                            <span>css bootstrap</span>
+                            <span>javaScript</span>
+                        </div>
+                        <div class="proyect-link">
+                            <a href="#" target="_blank"><i class="bi bi-link-45deg"></i>Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- se plasma cada uno de los proyectos en una card -->
+                <div class="proyect-card">
+                    <div class="proyect-img">
+                        <img src="./img/perfil.jpeg" alt="proyecto1">
+                    </div>
+                    <div class="proyect-info">
+                        <h3>Desarrollo Web</h3>
+                        <p>Desarrollo web enfocada a la venta de productos navideños</p>
+                        <div clas="proyect-tech">
+                            <span>html</span>
+                            <span>css bootstrap</span>
+                            <span>javaScript</span>
+                        </div>
+                        <div class="proyect-link">
+                            <a href="#" target="_blank"><i class="bi bi-link-45deg"></i>Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer clas="footer-content">
+        <p>@copy; 2026 Josue Ram&iacute;rez Todos los derechos reservados</p>
+        <div class="social-links">
+            <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+            <!-- <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a> -->
+            <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
