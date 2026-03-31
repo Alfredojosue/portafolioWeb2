@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Josue Ramirez" />
+    <meta name="description" content="Portafolio web profesional" />
     <title>Portafolio Web</title>
+    <link rel="shortcut icon" href="assets/marsol.png" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="./img/briefcase-fill.svg">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
+
 <body>
     <header>
         <nav id="navbar">
             <div class="logo">Josue<span> Ram&iacute;rez</span></div>
-                <ul class="nav-links">
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#experiencia">Experiencia</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                </ul>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -29,9 +35,10 @@
                         Cuento con gran capacidad aprendizaje, motivaci&oacute;n y entusiasmo por sobrellevar nuevos
                         retos.</p>
                     <div class="social-links">
-                        <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.instagram.com/josue_rc19?igsh=MXA0d3NreTIxZmU2bA==" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/alfredo-josue-ramirez-chavez-69087a212" target="_blank"><i class="bi bi-linkedin"></i></a>
                     </div>
-                    <a href="#contacto" class="btn">Contactame</a>
+                    <!-- <a href="#contacto" class="btn">Contactame</a> -->
                 </div>
                 <div class="hero-image">
                     <img src="./img/perfil.jpeg" alt="imagen de perfil">
@@ -55,7 +62,7 @@
                         </p>
                         <ul class="skills">
                             <li>Excel</li>
-                            <li>Soporte de software</li>
+                            <li>Soporte tecnico hadware</li>
                         </ul>
                     </div>
                 </div>
@@ -106,36 +113,42 @@
             <div class="proyects-container">
                 <div class="proyect-card">
                     <div class="proyect-img">
-                        <img src="./img/perfil.jpeg" alt="proyecto1">
+                        <img src="./img/cimat.png" alt=" referencia de proyecto 1">
                     </div>
                     <div class="proyect-info">
                         <h3>Desarrollo Web</h3>
-                        <p>Desarrollo web enfocada a la venta de productos navideños</p>
-                        <div clas="proyect-tech">
+                        <p>Colaborador de un proyecto de desarrollo web informativo y demostraci&oacute;n
+                            del funcionamiento de un sistema de inteligencia artificial con aplicaci&oacute;n
+                            al turismo.
+                        </p>
+                        <div class="project-tech">
                             <span>html</span>
-                            <span>css bootstrap</span>
+                            <span>bootstrap</span>
                             <span>javaScript</span>
+                            <span>Python</span>
                         </div>
                         <div class="proyect-link">
-                            <a href="#" target="_blank"><i class="bi bi-link-45deg"></i>Demo</a>
+                            <!-- <a href="" target="_blank"><i class="bi bi-link-45deg"></i>Demo</a> -->
                         </div>
                     </div>
                 </div>
                 <!-- se plasma cada uno de los proyectos en una card -->
                 <div class="proyect-card">
                     <div class="proyect-img">
-                        <img src="./img/perfil.jpeg" alt="proyecto1">
+                        <img src="./img/paginaNavi.png" alt=" referencia de proyecto 2">
                     </div>
                     <div class="proyect-info">
                         <h3>Desarrollo Web</h3>
-                        <p>Desarrollo web enfocada a la venta de productos navideños</p>
-                        <div clas="proyect-tech">
+                        <p>Desarrollo e implementaci&oacute;n de una pagina web enfocada enfocada a la venta de
+                            articulos navideños</p>
+                        <div class="project-tech">
                             <span>html</span>
-                            <span>css bootstrap</span>
+                            <span>bootstrap</span>
                             <span>javaScript</span>
                         </div>
                         <div class="proyect-link">
-                            <a href="#" target="_blank"><i class="bi bi-link-45deg"></i>Demo</a>
+                            <a href="https://lightcoral-mink-525135.hostingersite.com/" target="_blank"><i
+                                    class="bi bi-link-45deg"></i>Demo</a>
                         </div>
                     </div>
                 </div>
@@ -144,11 +157,11 @@
     </main>
     <footer clas="footer-content">
         <p>@copy; 2026 Josue Ram&iacute;rez Todos los derechos reservados</p>
-        <div class="social-links">
+        <!-- <div class="social-links">
             <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
-            <!-- <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a> -->
+            <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a>
             <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
-        </div>
+        </div> -->
     </footer>
 </body>
 
