@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Web</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -13,16 +13,16 @@
         <nav id="navbar">
             <div class="logo">Josue<span> Ram&iacute;rez</span></div>
                 <ul class="nav-links">
-                    <li><a href="#inicio"></a>Inicio</li>
-                    <li><a href="#experiencia"></a>Experiencia</li>
-                    <li><a href="#proyectos"></a>Proyectos</li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
                 </ul>
         </nav>
     </header>
     <main>
-        <section id="inicio" class="section">
-            <div class="section-contec">
-                <div class="section-text">
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
                     <h1>Josue Ram&iacute;rez</h1>
                     <h2>Ing. sistemas computacionales</h2>
                     <p>Soy ingeniero en sistemas computacionales con especialidad de desarrollo web y moviles.
@@ -30,18 +30,17 @@
                         retos.</p>
                     <div class="social-links">
                         <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
-                        <!-- <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a> -->
-                        <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
                     </div>
+                    <a href="#contacto" class="btn">Contactame</a>
                 </div>
-                <div class="section-image">
+                <div class="hero-image">
                     <img src="./img/perfil.jpeg" alt="imagen de perfil">
                 </div>
             </div>
         </section>
         <!-- Seccion de experiencia -->
         <section id="experiencia" class="experiencia">
-            <h2 class="sectiion-titulo">Experiencia Laboral</h2>
+            <h2 class="section-title">Experiencia Laboral</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
@@ -54,7 +53,7 @@
                             manejo de inventario de farmacia y caputara de informaci&oacute;n
                             en plataformas institucionales.
                         </p>
-                        <ul class="Skills">
+                        <ul class="skills">
                             <li>Excel</li>
                             <li>Soporte de software</li>
                         </ul>
@@ -73,7 +72,7 @@
                             computo e impresoras, mantenimiento
                             de camaras de seguridad CCTV.
                         </p>
-                        <ul class="Skills">
+                        <ul class="skills">
                             <li>cableado estructurado</li>
                             <li>soporte tecnico</li>
                             <li>Instalacion de camaras y mantenimiento</li>
@@ -91,7 +90,7 @@
                             controlador, asi como
                             lenguajes de programaci&oacute;n en python, html, css, javaScript etc.
                         </p>
-                        <ul class="Skills">
+                        <ul class="skills">
                             <li>flask</li>
                             <li>python (Lenguaje de prosesamiento natural)</li>
                             <li>html</li>
@@ -104,7 +103,7 @@
         </section>
         <section id="proyectos" class="proyects">
             <h2>Proyectos Personales</h2>
-            <div class="proyects-contanier">
+            <div class="proyects-container">
                 <div class="proyect-card">
                     <div class="proyect-img">
                         <img src="./img/perfil.jpeg" alt="proyecto1">
