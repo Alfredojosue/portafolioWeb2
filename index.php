@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
-
 <body>
     <header>
         <nav id="navbar">
@@ -157,11 +156,11 @@
     </main>
     <footer clas="footer-content">
         <p>@copy; 2026 Josue Ram&iacute;rez Todos los derechos reservados</p>
-        <!-- <div class="social-links">
+        <div class="social-links">
             <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <!-- <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a> -->
             <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
-        </div> -->
+        </div>
     </footer>
 </body>
 
