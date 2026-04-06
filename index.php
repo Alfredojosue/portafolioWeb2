@@ -36,6 +36,8 @@
                     <div class="social-links">
                         <a href="https://www.instagram.com/josue_rc19?igsh=MXA0d3NreTIxZmU2bA==" target="_blank"><i class="bi bi-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/alfredo-josue-ramirez-chavez-69087a212" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="CVAlfredoRamirez.pdf" target="_blank"><i class="bi bi-file-person-fill"></i></a>
+
                     </div>
                     <!-- <a href="#contacto" class="btn">Contactame</a> -->
                 </div>
