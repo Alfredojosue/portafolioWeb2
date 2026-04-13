@@ -1,8 +1,8 @@
 /* se crean diferentes variables */
 :root{
-    --primary-color:  #8E51FF;
-    --dark-bg: #121212;
-    --darker-bg:#0a0a0a;
+    --primary-color:  #D62828;
+    --dark-bg:#003049;
+    --darker-bg: #0a0a0a;
     --ligth-text: #f5f5f5;
     --gray-text: #aaaaaa;
     --card-bg: #48474788;
@@ -343,6 +343,54 @@ section{
 .proyect-link a:hover{
     color: var(--primary-color);
 }
+/*  Parte de cursos*/
+.card-list{
+    width: 30rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.iner{
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+    animation: loop 9s linear infinite;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    gap:0 0.2rem;
+    color: var(--ligth-text);
+    font-size: 0.9rem;
+    background-color: var(--darker-bg);
+    padding: 0.7rem 1rem;
+    border-radius:  0.4rem;
+    box-shadow: 0 0.1rem 0.2rem #00000033,
+                0 0.1rem 0.5rem  #0000004d,
+                0 0.2rem 1.5rem  #00000066;
+}
+.tag span{
+    font-size: 1.2rem;
+    color: var(--gray-text);
+}
+.fade{
+    position: absolute;
+    background: linear-gradient(90deg , #1e293b, transparent 30%, transparent 70%
+    , #1e293b);
+    inset: 0;
+    pointer-events: none;
+}
+@keyframes loop {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
 /*parte del footer*/
 .footer{
     background-color: var(--darker-bg);
@@ -368,5 +416,10 @@ section{
     }
     .hero-content, .nav-links{
         flex-direction: column;
+    }
+    .card-list, .iner {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
     }
 }

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
+
 <body>
     <header>
         <nav id="navbar">
@@ -21,6 +22,8 @@
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+
             </ul>
         </nav>
     </header>
@@ -34,9 +37,11 @@
                         Cuento con gran capacidad aprendizaje, motivaci&oacute;n y entusiasmo por sobrellevar nuevos
                         retos.</p>
                     <div class="social-links">
-                        <a href="https://www.instagram.com/josue_rc19?igsh=MXA0d3NreTIxZmU2bA==" target="_blank"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/alfredo-josue-ramirez-chavez-69087a212" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a href="CVAlfredoRamirez.pdf" target="_blank"><i class="bi bi-file-person-fill"></i></a>
+                        <a href="https://www.instagram.com/josue_rc19?igsh=MXA0d3NreTIxZmU2bA==" target="_blank"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/alfredo-josue-ramirez-chavez-69087a212" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="josueRamirezCH.pdf" target="_blank"><i class="bi bi-file-person-fill"></i></a>
 
                     </div>
                     <!-- <a href="#contacto" class="btn">Contactame</a> -->
@@ -155,15 +160,29 @@
                 </div>
             </div>
         </section>
+        <section id="cursos" class="cursos">
+            <h2>Cursos</h2>
+            <!-- se plasma cada uno de los proyectos en una card -->
+            <div class="card-list">
+                <div class="iner">
+                    <div class="tag"><span>#</span>Full-Stack developer web</div>
+                    <div class="tag"><span>#</span>Desarrollo web .Net Core</div>
+                    <div class="tag"><span>#</span>Programación esencial en python</div>
+                    <div class="tag"><span>#</span>Cybersecurity Essentials</div>
+                    <div class="tag"><span>#</span>Linux Essentials</div>
+                </div>
+                <div class="fade"></div>
+            </div>
+        </section>
     </main>
-    <footer clas="footer-content">
+    <!-- <footer clas="footer-content">
         <p>@copy; 2026 Josue Ram&iacute;rez Todos los derechos reservados</p>
         <div class="social-links">
             <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
-            <!-- <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a> -->
+            <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a>
             <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
