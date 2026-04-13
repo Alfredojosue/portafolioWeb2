@@ -345,10 +345,12 @@ section{
 }
 /*  Parte de cursos*/
 .card-list{
-    width: 30rem;
+    width: 50rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
+    /* position: relative; */ /* Se realiza el degrade*/ 
     overflow: hidden;
+    margin-left: 15rem;
+
 }
 .iner{
     text-align: center;
@@ -389,7 +391,6 @@ section{
         transform: translateX(-50%);
     }
 }
-
 
 /*parte del footer*/
 .footer{
