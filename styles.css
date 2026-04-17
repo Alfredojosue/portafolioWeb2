@@ -345,11 +345,13 @@ section{
 }
 /*  Parte de cursos*/
 .card-list{
-    width: 50rem;
+    max-width: 400px;
+    margin: 0 auto;
+    /* width: 800px; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative; /* Se realiza el degrade*/ 
     overflow: hidden;
-    margin-left: 15rem;
+  
 
 }
 .iner{
@@ -357,7 +359,7 @@ section{
     width: fit-content;
     display: flex;
     gap: 1rem;
-    animation: loop 9s linear infinite;
+    animation: loop 10s linear infinite;
 }
 .tag{
     display: flex;
@@ -406,7 +408,7 @@ section{
     margin: 0 auto;
 }
 /*para dispositivos moviles , se crea una media query*/
-@media (main-width: 420px){
+@media (main-width: 360px){
     header{
         position: static;
     }
