@@ -347,7 +347,7 @@ section{
 .card-list{
     width: 50rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* position: relative; */ /* Se realiza el degrade*/ 
+    position: relative; /* Se realiza el degrade*/ 
     overflow: hidden;
     margin-left: 15rem;
 
