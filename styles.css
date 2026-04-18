@@ -184,14 +184,16 @@ section{
     transform: translateY(-3px);
 }
 .hero-image{
+    width: 90%;
+    max-width: 400px;
     flex: 1;
     display: flex;
     justify-content: flex-end;
 
 }
 .hero-image img{
-    width: 350px;
-    height: 350px;
+    width: 90%;
+    height: auto;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid var(--primary-color);
@@ -408,7 +410,7 @@ section{
     margin: 0 auto;
 }
 /*para dispositivos moviles , se crea una media query*/
-@media (main-width: 360px){
+/* @media (main-width: 360px){
     header{
         position: static;
     }
@@ -424,5 +426,28 @@ section{
         flex-direction: column;
         padding: 1rem;
         gap: 1rem;
+    }
+} */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column; /* Apila el logo sobre los links */
+        text-align: center;
+        gap: 1rem;
+    }
+    .nav-links {
+        flex-direction:row; /* Los links se ponen uno debajo del otro */
+        gap: 0.5rem;
+        padding: 0;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.05); /* Fondo sutil para cada link */
+        border-radius: 5px;
     }
 }
